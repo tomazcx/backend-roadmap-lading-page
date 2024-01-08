@@ -23,7 +23,7 @@ const links = ref([
 </script>
 
 <template>
-	<nav class="flex items-center justify-between pt-36 w-11/12 max-w-screen-xl mx-auto">
+	<nav class="flex mb-36 items-center justify-between pt-36 w-11/12 max-w-screen-xl mx-auto">
 		<NavLink :key="link.label" :href-to="link.hrefTo" :label="link.label"  v-for="link in links" />
 	</nav>
 </template>
