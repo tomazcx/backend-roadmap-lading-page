@@ -9,7 +9,7 @@ A landing page made to advertise for a backend roadmap.
 - Vite
 - TailwindCSS
 
-## Usage
+## USAGE
 
 To run this project localy, start by cloning the repository:
 
