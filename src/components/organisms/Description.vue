@@ -46,7 +46,7 @@ const badges = ref([
 			<div class="left-1/4 absolute">
 				<Blur />
 			</div>
-			<h2 class="text-3xl lg:text-5xl text-center">Tudo sobre <span class="text-primary">Node.js</span>, juntamente com as
+			<h2 class="text-5xl text-center">Tudo sobre <span class="text-primary">Node.js</span>, juntamente com as
 				tecnologias mais <span class="text-primary">demandadas no mercado</span></h2>
 			<p class="text-lg lg:text-2xl text-silver max-w-3xl text-center">Tenha acesso a um guia completo que aborda desde
 				lógica programação básica até o necessário para se tornar um desenvolvedor back-end
