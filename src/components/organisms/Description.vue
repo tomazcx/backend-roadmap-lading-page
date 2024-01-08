@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue"
 
 //images
 import DevActivitySvg from "../../assets/illustrations/dev_activity.svg"
@@ -14,7 +13,7 @@ import DescriptionCard from "../molecules/DescriptionCard.vue"
 import Badge from "../molecules/Badge.vue"
 import Blur from "../molecules/Blur.vue"
 
-const badges = ref([
+const badges = [
 	{
 		iconSrc: StarSvg,
 		title: "Vitalício",
@@ -36,7 +35,7 @@ const badges = ref([
 		description: "Ao adquirir o guia, você também ganha um desconto para uma mentoria particular com o autor do conteúdo."
 	},
 
-])
+]
 
 </script>
 

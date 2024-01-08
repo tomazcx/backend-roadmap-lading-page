@@ -2,7 +2,22 @@
 import QuestionSvg from "../../assets/illustrations/question.svg"
 import Question from "../molecules/Question.vue";
 
-const questions: {question:string; answer:string}[] = []
+const questions = [
+  {
+    question: 'É um curso em vídeo ?',
+    answer:
+      'Não! É um guia criado por mim onde eu ensino a como utilizar tecnologias backend. Tudo isso é ensinado com didática simples de entender, até quem está iniciando consegue entender o que cada linguagem faz.',
+  },
+  {
+    question: 'Por onde eu acesso o Roadmap após a compra?',
+    answer: 'Você receberá um e-mail com o link para acessar o Roadmap.',
+  },
+  {
+    question: 'O acesso é vitalício?',
+    answer:
+      'Sim! Você terá acesso vitalício ao Roadmap, podendo acessar quando quiser e com todas as futuras atualizações.',
+  },
+]
 </script>
 
 <template>
