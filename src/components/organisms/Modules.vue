@@ -4,7 +4,7 @@ import { firstColumnModules, secondColumnModules } from "../../utils/modules";
 </script>
 
 <template>
-	<section class="flex flex-col gap-24">
+	<section id="content" class="flex flex-col gap-24">
 		<div class="flex flex-col gap-12">
 			<h2 class="text-5xl text-center">O que vou <span class="text-primary">aprender</span> ao longo do guia?</h2>
 			<p class="text-silver text-2xl text-center">Abaixo contém uma lista de todos os módulos e conteúdos a serem abordados no guia.</p>

@@ -21,7 +21,7 @@ const questions = [
 </script>
 
 <template>
-	<section class="xl:grid xl:grid-cols-12 flex flex-col xl:gap-32 gap-16">
+	<section id="Q&A" class="xl:grid xl:grid-cols-12 flex flex-col xl:gap-32 gap-16">
 		<div class="flex gap-12 flex-col xl:col-span-6">
 			<h2 class="text-4xl"><span class="text-primary block">Perguntas frequentes</span> que recebo em meu Instagram</h2>
 			<img :src="QuestionSvg" width="350" />
