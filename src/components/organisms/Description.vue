@@ -46,13 +46,13 @@ const badges = ref([
 			<div class="left-1/4 absolute">
 				<Blur />
 			</div>
-			<h2 class="text-5xl text-center">Tudo sobre <span class="text-primary">Node.js</span>, juntamente com as
+			<h2 class="text-3xl lg:text-5xl text-center">Tudo sobre <span class="text-primary">Node.js</span>, juntamente com as
 				tecnologias mais <span class="text-primary">demandadas no mercado</span></h2>
-			<p class="text-2xl text-silver max-w-3xl text-center">Tenha acesso a um guia completo que aborda desde
+			<p class="text-lg lg:text-2xl text-silver max-w-3xl text-center">Tenha acesso a um guia completo que aborda desde
 				lógica programação básica até o necessário para se tornar um desenvolvedor back-end
 				profissional, pronto para atuar em diferentes projetos utilizando ferramentas de ponta.</p>
 		</article>
-		<div class="flex gap-32 relative">
+		<div class="flex lg:flex-row flex-col gap-16 lg:gap-32 relative">
 			<div class="bottom-12 left-1/2 absolute">
 				<Blur />
 			</div>
@@ -61,7 +61,7 @@ const badges = ref([
 			<DescriptionCard class="z-10" :img-src="OnlineTestSvg" title="Pratique enquanto estuda"
 				description="Cada módulo contém diversos exercícios pra você aplicar o conteúdo aprendido, para assim exercitar o conteúdo e poder aproveitar 100% do material oferecido." />
 		</div>
-		<div class="flex justify-between w-full gap-12">
+		<div class="flex lg:flex-row justify-between w-full gap-12 flex-col">
 			<Badge :key="badge.title" :icon-src="badge.iconSrc" :title="badge.title"
 				:description="badge.description" v-for="badge in badges" />
 		</div>

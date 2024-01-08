@@ -7,8 +7,8 @@ import Description from "./components/organisms/Description.vue";
 
 <template>
 	<Header />
-	<Navigation />
-	<main class="w-11/12 max-w-screen-xl mx-auto flex flex-col gap-72">
+	<Navigation /> 
+	<main class="w-11/12 max-w-screen-xl mx-auto flex flex-col gap-32 lg:gap-72">
 		<Main />
 		<Description />
 	</main>
