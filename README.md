@@ -17,10 +17,20 @@ To run this project localy, start by cloning the repository:
 git clone https://github.com/tomazcx/backend-roadmap-lading-page.git
 ```
 
+cd into the project folder:
+
+```bash
+cd backend-roadmap-lading-page
+```
+
+Install the dependencies:
+
+```bash
+yarn
+```
+
 Then start the development server:
 
 ```bash
 yarn dev
-#or
-npm run dev
 ```
